@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .hit-button {
+    margin-bottom: 1rem;
+    padding: 1rem 5rem;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .bee-hive {
+    .queen-bee,
+    .worker-bee,
+    .drone-bee {
+      padding: 0.5rem 0;
+    }
+  }
+  .add-bees {
+    display: flex;
+    flex-direction: row;
+    .add-bee {
+      padding: 1rem 2rem;
+      margin: 1rem;
+      background-color: gold;
+      color: #000;
+      border: none;
+      border-radius: 20px;
+      font-weight: 600;
+    }
+  }
+  .title,
+  .subtitle {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .choose-name-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+
+    .player-name {
+      margin-right: 1rem;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .input-style {
+      padding: 0.5rem;
+    }
+  }
+}

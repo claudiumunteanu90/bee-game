@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bee Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">The Swarm Game</h1>
+      <div class="choose-name-input">
+        <label class="player-name" for="player-name">Select Hero:</label>
+        <select class="input-style" id="player-name">
+          <option value="Son Goku">Son Goku</option>
+          <option value="Iron Man">Iron Man</option>
+          <option value="Marcelino, Pan y Vino">Marcelinno</option>
+        </select>
+      </div>
+      <div><button class="hit-button" id="hit-button">Hit Bee</button></div>
+      <div id="hit-details"></div>
+      <div class="bee-hive" id="swarm-info">
+        <h2 class="subtitle" id="total-bees">Hive</h2>
+
+        <div id="queen-details" class="queen-bee"></div>
+        <div id="worker-details" class="worker-bee"></div>
+        <div id="drone-details" class="drone-bee"></div>
+      </div>
+      <div class="add-bees">
+        <button id="add-worker-button" class="add-bee">Add Worker Bee</button>
+        <button id="add-drone-button" class="add-bee">Add Drone Bee</button>
+      </div>
+    </div>
+    <script src="../dist/index.js"></script>
+  </body>
+</html>
